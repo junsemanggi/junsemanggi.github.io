@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memuat Pemutar Video...</title>
+    
+    <!-- ========================================================= -->
+    <!-- 1. TEMPELKAN SCRIPT SOCIAL BAR ADSTERRA DI SINI -->
+    <!-- ========================================================= -->
+    <script src="https://reactahead.com/91/9a/b5/919ab550772fd7def8868b32979e3e32.js"></script>
+
+    <!-- ========================================================= -->
+    <!-- 2. TEMPELKAN SCRIPT POPUNDER ADSTERRA DI SINI -->
+    <!-- ========================================================= -->
+    <script src="https://reactahead.com/bd/90/bf/bd90bf9f269bd452243d3f8b954f806f.js"></script>
+
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f5f7fb;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            max-width: 400px;
+            width: 90%;
+            box-sizing: border-box;
+        }
+        h2 {
+            font-size: 1.3rem;
+            color: #1e293b;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 0.95rem;
+            color: #64748b;
+            line-height: 1.5;
+            margin-bottom: 25px;
+        }
+        .btn-watch {
+            display: inline-block;
+            background-color: #e74c3c; /* Warna Merah Streaming */
+            color: white;
+            text-decoration: none;
+            padding: 14px 28px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            border-radius: 8px;
+            transition: background 0.2s;
+            cursor: pointer;
+            border: none;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .btn-watch:hover {
+            background-color: #c0392b; /* Warna Merah Gelap Saat Di-hover */
+        }
+        .warning {
+            margin-top: 20px;
+            font-size: 0.82rem;
+            color: #ef4444;
+            background-color: #fef2f2;
+            padding: 10px;
+            border-radius: 6px;
+            border: 1px solid #fee2e2;
+            text-align: left;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Video Siap Diputar</h2>
+        <p>Silakan klik tombol di bawah untuk langsung menuju pemutar video dan menonton film.</p>
+        
+        <!-- ========================================================= -->
+        <!-- 3. STRATEGI SMARTLINK + LINK UTAMA FILMNYA -->
+        <!-- ========================================================= -->
+        <!-- Ganti 'URL_SMARTLINK_ADSTERRA' dengan link Smartlink Anda -->
+        <!-- Ganti 'URL_LINK_FILM_ASLI' dengan link tujuan akhir film Anda -->
+        <a href="https://reactahead.com/bmpxda7vsv?key=9fa4382c43111571b261fab50eb3b8f8" 
+           onclick="window.open('https://t.me/HusbandsinAction', '_blank');" 
+           class="btn-watch">
+            TONTON SEKARANG
+        </a>
+
+        <div class="warning">
+            <strong>⚠️ PETUNJUK:</strong><br>
+            Jika terbuka halaman iklan atau tab baru, silakan <strong>kembali ke halaman ini</strong> dan klik tombol di atas sekali lagi sampai pemutar video terbuka.
+        </div>
+    </div>
+
+</body>
+</html>
